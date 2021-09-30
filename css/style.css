@@ -1,0 +1,147 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap");
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+/* ------------------------------ */
+
+.wrapper {
+	min-height: 100%;
+	width: 1020px;
+	margin: 0 auto;
+}
+main {
+	width: 846px;
+	margin: 0 auto;
+}
+.logo {
+	margin-top: 100px;
+}
+h3 {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 28px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #4b4b4b;
+	margin-bottom: 33px;
+}
+h2 {
+	width: 583px;
+	font-family: roboto;
+	font-size: 36px;
+	line-height: 42px;
+	margin-bottom: 40px;
+}
+.content {
+	color: #4b4b4b;
+	font-family: roboto;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 50px;
+}
+.block {
+	max-width: 324px;
+	max-height: 340px;
+	padding: 50px 44px 50px 43px;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	margin-bottom: 24px;
+}
+.block img {
+	display: block;
+	margin: 0 auto 33px;
+}
+.block_title {
+	text-align: center;
+	font-size: 19px;
+	line-height: 26px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+.block_content {
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
+}
+.shop {
+	max-width: 1039px;
+	font-family: poppins;
+	font-weight: 300;
+}
+.shop h3 {
+	font-size: 24px;
+}
+footer {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	padding: 70px;
+	max-width: 465px;
+}
+footer img {
+	margin-bottom: 9px;
+}
+.last_title {
+	font-weight: 500;
+	line-height: 58px;
+	margin-bottom: 25px;
+	font-size: 44px;
+}
+h4 {
+	margin: 20px 0px 20px 0px;
+	font-weight: 700;
+}
+.last_content {
+	font-family: poppins;
+	font-size: 18px;
+	font-weight: 300;
+}
